@@ -1,26 +1,30 @@
 {
-	"name": "projectname",
+	"name": "efectomatrix",
 	"version": "0.0.1",
 	"description": "cv1Reactjs",
+	"homepage":"https://rroderickk.github.io/efectomatrix",
 	"main": ".src/index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "webpack serve",
-		"build": "webpack --mode production"
+		"build": "webpack --mode production",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -b master -d dist"
 	},
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "https://rroderickk.github.io/efectomatrix"
 	},
 	"keywords": [
 		"react",
 		"javascript",
-		"shop"
+		"efectomatrix",
+		"background"
 	],
 	"author": "CheatModes4 rroderickk@gmail.com",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://rroderickk.github.io/reactPractico/"
+		"url": "https://rroderickk.github.io/efectomatrix/issues"
 	},
 	"dependencies": {
 		"@babel/core": "7.16.12",
