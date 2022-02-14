@@ -1,0 +1,42 @@
+.div-container {
+  display: flex;
+  overflow: auto;
+}
+.div-container::-webkit-scrollbar {
+  width: 20px !important;
+}
+
+.div-container::-webkit-scrollbar:hover {
+  border-bottom: 8px solid crimson;
+	box-shadow: 0 0 .1rem #fff, inset 0 0 .1rem #fff, 0 0 8rem red; //!solo hacia arriba
+}
+.div-avo {
+  height: 100%;
+  margin: 1px;
+  object-fit: contain;
+  object-fit: contain;
+  padding: 0;
+  box-sizing: 0;
+  background-color: black;
+}
+.div-list {
+  margin: 4px;
+  background-color: white;
+  padding: 8px;
+  border: 4px solid black;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  align-content: center;
+  border-radius:12px;
+}
+.div-card {
+  border-radius:19px;
+  background-color:darkslategrey;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+}
+.div-card > img {
+  width: 100%;
+}

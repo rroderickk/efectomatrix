@@ -6,7 +6,7 @@ const Modal = ({ children }) => {
 
 return ReactDOM.createPortal(
   <div className="Modal">
-    {children}
+   {children}
   </div>,
   document.getElementById("canvasMatrix")
 ); }; 

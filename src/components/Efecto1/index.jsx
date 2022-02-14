@@ -35,5 +35,5 @@ export { Efecto1 };
 
 const Main = styled.div`
   width: 100vw;
-  height: 100vh; 
+  height: 180vh; 
 `;

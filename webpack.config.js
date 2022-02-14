@@ -22,7 +22,7 @@ const path = require("path");
 				 "@styles": path.resolve(__dirname, "src/styles/"),
 				 "@assets": path.resolve(__dirname, "public/assets/"),
 				 "@icons": path.resolve(__dirname, "public/assets/icons/"),
-				 "@imgs": path.resolve(__dirname, "public/assets/imgs/"),
+				 "@imgs": path.resolve(__dirname, "public/assets/images/"),
 				 "@logos": path.resolve(__dirname, "public/assets/logos/"),
 		 },
 	 },

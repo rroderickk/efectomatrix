@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-  const canvas = document.getElementById("canvasMatrix");
+  const canvas = document.getElementById("canvasMatrix2");
   const ctx = canvas.getContext("2d");
   const w = (canvas.width = document.body.offsetWidth);
   const h = (canvas.height = document.body.offsetHeight);
@@ -23,3 +23,5 @@ import ReactDOM from "react-dom";
     });
   }
   setInterval(matrix, 50);
+
+export { canvas }

@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import styled from "styled-components";
-import { Matrix } from "../../hooks/useMatrix";
+import { Matrix } from "../../hooks/useMatrix2";
 
 const Efecto2 =()=> {
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
@@ -35,5 +35,5 @@ export { Efecto2 };
 
 const Main = styled.div`
   width: 100vw;
-  height: 100vh; 
+  height: 180vh; 
 `;
