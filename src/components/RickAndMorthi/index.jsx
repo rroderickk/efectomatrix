@@ -14,16 +14,16 @@ useEffect(()=>{
 
 return ( <> 
 <div className="div-container">
-{rick.length>0&&(rick.map(char=>
+{rick.length>0 && (rick.map(char=>
   <>
-      <div className="div-avo" >  MAIN: 
-            <div className="div-list">  container: 
-              <div className="div-card"> 
-                Char: card  
-                <Card props={char} key={char.id}/>
-              </div>
-            </div>
-      </div>
+    <div className="div-avo" >  MAIN: 
+        <div className="div-list">  container: 
+          <div className="div-card"> 
+            Char: card  
+            <Card props={char} key={char.id}/>
+          </div>
+        </div>
+    </div>
   </>
 ))}
 </div>
