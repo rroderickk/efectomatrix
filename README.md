@@ -8,3 +8,5 @@
 ### por ahora solo esta el componente AVO que era para hacerle fetching a otra API pero resulté usando la de rick and morthy mañana lo arreglo jajaja
 
 ![demo](./scdemo.png)
+## la practica xD
+![demo](./entireproject.jpeg)
