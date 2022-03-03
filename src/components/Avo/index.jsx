@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import "./Avo.scss"; //!(:@)====>styles;
+import "./Avo.scss";//!(:@)>styles;
 import { Avocado } from "../Avocado";
 import { useGetProducts, useGetRick } from '../../hooks/useGetProducts';
 
-// const API = "https://platzi-avo.vercel.app/api/avo";
+// const API = "https://platzi-avo.vercel.app/api/avo"; //todo 
 const RickandMorthi = "https://rickandmortyapi.com/api/character";
 
 const Avo =()=> { 
